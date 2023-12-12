@@ -365,7 +365,7 @@ slides.push([
 slides.push([
 	{
 		config: {
-			title: 'Weakly Coffee',
+			title: 'Weekly Coffee',
 			x: { set: ['date', 'dayOfWeek'] },
 			y: { set: ['coffee'] },	
 			legend: null
@@ -405,6 +405,7 @@ slides.push([
 	},
 	{
 		config: {
+			x: ['mean(coffee)'],
 			label: ['mean(coffee)']
 		},
 		animOptions: '.3s'
